@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(160, 235, 235);
+  font-family: "Dancing Script", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: aliceblue;
+  min-height: 80%;
+  min-width: 80vw;
+}
+.budget-cal {
+  border: 2px solid green;
+  padding: 20px;
+}
+
+.expense-cal {
+  border: 2px solid red;
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+}
+@media screen and (min-width: 600px) {
+  body {
+    min-width: 100%;
+  }
+  .title1 {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+  .title2 {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .budget-cal {
+    width: 80vw;
+  }
+  .expense-cal {
+    width: 80vw;
+  }
+}
